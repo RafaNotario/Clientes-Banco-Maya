@@ -13,6 +13,15 @@ public class TarjetaDigitalServiceImpl implements TarjetaDigitalService{
 
 	private static List<TarjetaDigital> tarjetas = new ArrayList<TarjetaDigital>();
 	
+/*	static {
+		TarjetaDigital tarjeta = new TarjetaDigital();
+		tarjeta.setId(1);
+		tarjeta.setCliente("Espe");
+		tarjeta.setBanco("Banco espe");
+		tarjeta.setNumero("12512");
+		tarjeta.setNumeroSeguridad("1111");
+	}
+*/	
 	@Override
 	public TarjetaDigital crearTarjetaDigital(TarjetaDigital tarjeta) {
 		tarjeta.setId(tarjetas.size() + 1);
