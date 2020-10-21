@@ -1,2 +1,5 @@
-com\bancomaya\clientes\HelloWorld.class
+com\bancomaya\clientes\TarjetaDigitalServiceImpl.class
 com\bancomaya\clientes\HelloWorldImpl.class
+com\bancomaya\clientes\model\TarjetaDigital.class
+com\bancomaya\clientes\HelloWorld.class
+com\bancomaya\clientes\TarjetaDigitalService.class
